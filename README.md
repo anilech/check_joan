@@ -15,3 +15,5 @@ monitor [joan displays](https://getjoan.com/) plugin for Nagios
 
 #### Example:
 `check_joan.sh -H http://joan.company.com:8081 -k d4508ad5491f14df -s file:etc/joan.secret`
+#### Depends on:
+curl, openssl, jq, awk

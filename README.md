@@ -2,7 +2,7 @@
 monitor [joan displays](https://getjoan.com/) plugin for Nagios
 
 #### Usage:
-`check_joan.sh -H http://joan_host:port -k api_key -s api_secret [-c <critical>] [-w <warning>]`
+`check_joan.sh -H http://joan_host:port -k api_key -s api_secret [-c <critical>] [-w <warning>] [-u]`
 
 #### Options:
 - -H  joan server url,
